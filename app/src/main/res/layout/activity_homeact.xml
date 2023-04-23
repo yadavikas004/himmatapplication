@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeact"
+    android:background="@drawable/mainscreenbg"
+    android:id="@+id/constraint_layout">
+
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView3"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="311dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483"
+        app:neumorph_shadowColorDark="#08070f"
+        app:neumorph_shadowColorLight="#3c3768"
+        app:neumorph_shapeType="pressed">
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="  Phone Number SOS"
+            android:inputType="phone"
+            android:textColor="@color/white"
+            android:textColorHint="#6EFFFFFF" />
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/neumorphCardView"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="300dp"
+        android:layout_height="107dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054"
+        app:neumorph_shadowColorDark="#08070f"
+        app:neumorph_shadowColorLight="#3c3768">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  You are safe with\nHimmat"
+            android:textAlignment="center"
+            android:textColor="#ffbfb6"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </soup.neumorphism.NeumorphCardView>
+
+    <ImageView
+        android:id="@+id/sos_img"
+        android:layout_width="151dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267"
+        app:srcCompat="@drawable/sosbut" />
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/MSSGS"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Messages"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613"
+        app:neumorph_shadowColorDark="#08070f"
+        app:neumorph_shadowColorLight="#3c3768" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/button"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:onClick="gotocrime"
+        android:text="Crime Rate"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613"
+        app:neumorph_shadowColorDark="#08070f"
+        app:neumorph_shadowColorLight="#3c3768" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/helpbtn"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Helpline"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722"
+        app:neumorph_shadowColorDark="#08070f"
+        app:neumorph_shadowColorLight="#3c3768" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/mapbtn"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Map"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722"
+        app:neumorph_shadowColorDark="#08070f"
+        app:neumorph_shadowColorLight="#3c3768" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/selfdefence"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Self Defence"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831"
+        app:neumorph_shadowColorDark="#08070f"
+        app:neumorph_shadowColorLight="#3c3768" />
+
+    <soup.neumorphism.NeumorphButton
+        android:id="@+id/speedometer"
+        style="@style/Widget.Neumorph.Button"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Speedometer"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831"
+        app:neumorph_shadowColorDark="#08070f"
+        app:neumorph_shadowColorLight="#3c3768" />
+
+    <EditText
+        android:id="@+id/SOSmssg"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+    //Circle Menu
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:id="@+id/circle_menu"
+        android:layout_width="154dp"
+        android:layout_height="133dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:text="Maps2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.398" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <declare-styleable name="MaterialButton">
+    <attr format="dimension" name="cornerRadius"/>
+    <!-- Ripple color for the button. This may be a color state list, if the desired ripple color
+         should be stateful. Attribute type definition is in resources package. -->
+    <attr name="rippleColor"/>
+</declare-styleable>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Himmat.iml" filepath="$PROJECT_DIR$/.idea/modules/Himmat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Himmat.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Himmat.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Himmat.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Himmat.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Himmat.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Himmat.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Himmat.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Himmat.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
