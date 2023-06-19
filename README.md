@@ -1,2 +1,2 @@
-# Suraksha - an SOS and safety app.
+# Himmat - an SOS and safety app.
 Promotional Website Link - 
